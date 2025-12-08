@@ -1,0 +1,42 @@
+{
+  "name": "todolist-rtk-query",
+  "homepage": "https://pavel5284.github.io/todolist-rtk-query/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "tsc -b && vite build",
+    "test": "vitest",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.0",
+    "@hookform/resolvers": "^5.2.2",
+    "@mui/icons-material": "6.3.1",
+    "@mui/material": "6.3.1",
+    "@reduxjs/toolkit": "2.5.0",
+    "axios": "^1.13.2",
+    "gh-pages": "^6.3.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-hook-form": "^7.66.1",
+    "react-redux": "9.2.0",
+    "react-router": "^7.9.6",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.6",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "@vitejs/plugin-react-swc": "3.7.2",
+    "globals": "15.14.0",
+    "prettier": "3.6.2",
+    "typescript": "5.7.3",
+    "vite": "6.0.7",
+    "vitest": "2.1.8"
+  }
+}

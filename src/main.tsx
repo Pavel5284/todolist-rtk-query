@@ -6,6 +6,7 @@ import { store } from "./app/store"
 import { HashRouter } from "react-router"
 
 createRoot(document.getElementById("root")!).render(
+  //BrowserRouter  changed to HashRouter for gh-pages
   <HashRouter>
     <Provider store={store}>
       <App />

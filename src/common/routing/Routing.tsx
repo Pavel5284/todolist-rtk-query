@@ -7,15 +7,14 @@ import { useAppSelector } from "@/common/hooks"
 import { selectIsLoggedIn } from "@/app/app-slice.ts"
 
 export const Path = {
-  Main: "/todolist-rtk-query/",
-  Login: "/todolist-rtk-query/login",
-  Faq: "/todolist-rtk-query/faq",
+  Main: "/",
+  Login: "/login",
+  Faq: "/faq",
   NotFound: "*",
 } as const
 
 export const Routing = () => {
   const isLoggedIn = useAppSelector(selectIsLoggedIn)
-  console.log(isLoggedIn, "isLoggedIn App")
   return (
     <Routes>
       <Route element={<ProtectedRoute isAllowed={isLoggedIn} />}>

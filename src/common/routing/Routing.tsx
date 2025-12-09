@@ -7,9 +7,9 @@ import { useAppSelector } from "@/common/hooks"
 import { selectIsLoggedIn } from "@/app/app-slice.ts"
 
 export const Path = {
-  Main: "/",
-  Login: "/login",
-  Faq: "/faq",
+  Main: "/todolist-rtk-query/",
+  Login: "/todolist-rtk-query/login",
+  Faq: "/todolist-rtk-query/faq",
   NotFound: "*",
 } as const
 
